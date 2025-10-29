@@ -34,10 +34,9 @@ export default function socialMedia() {
 
       {socialMediaLinks.gmail ? (
         <a
-          href={`mailto:${socialMediaLinks.gmail}`}
+          href="#"
           className="icon-button google"
-          target="_blank"
-          rel="noopener noreferrer"
+          onClick={() => window.open(`mailto:${socialMediaLinks.gmail}`, '_self')}
         >
           <i className="fas fa-envelope"></i>
           <span></span>

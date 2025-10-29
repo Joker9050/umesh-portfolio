@@ -36,13 +36,23 @@ export default function Greeting() {
               >
                 {greeting.subTitle}
               </p>
+              {greeting.techInterests && (
+                <div className="techInterests">
+                  <h3>Technical Interests</h3>
+                  <ul>
+                    {greeting.techInterests.map((interest, index) => (
+                      <li key={index}>{interest}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
                 <Button text="Contact me" href="#contact" />
                 {greeting.resumeLink && (
                   <a
-                    href={require("./resume.pdf")}
+                    href={greeting.resumeLink}
                     download="Resume.pdf"
                     className="download-link-button"
                   >

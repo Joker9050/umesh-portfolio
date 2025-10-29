@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Umesh Garg",
+  title: "Hi, I'm Umesh Garg 👋",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Backend Developer | SaaS Integrations | API Architect | POS & Automation Systems | Tech Enthusiast 🚀 | Prompt expert | Fast Learner"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/13pUC0r3QJmh-7re9lh_BkHIO4P6DozJWOFjI9iwgNdk/export?format=pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/Joker9050",
+  linkedin: "https://www.linkedin.com/in/umeshgarg9050hee/",
+  gmail: "gargumesh463@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Backend Developer with expertise in SaaS Integration, POS Systems, and Automation — building optimized, scalable systems that handle real-time data with efficiency.",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    "⚙️ Design and develop RESTful APIs with clean architecture, security, and scalability.",
+    "🔗 Integrate large-scale SaaS platforms like Octorate Channel Manager and smart lock systems (Omnitec, Nuki).",
+    "💾 Expert in SQL and MySQL — designing normalized schemas, writing optimized queries, and managing high-traffic databases.",
+    "🧩 Create automation tools for debugging, data sync, and recurring server tasks (cron jobs).",
+    "🏪 Build full POS systems including billing, Udahri (balance management), item tracking, and reporting.",
+    "🕒 Implement cron jobs, webhook listeners, and task schedulers for automated operations.",
+    "📊 Optimize database queries and backend performance to handle thousands of live data transactions daily.",
+    "🤝 Collaborate closely with senior developers and DevOps for production-grade deployment and performance tuning.",
+    "🚀 Continuously enhance system reliability, reduce server memory usage, and improve load handling efficiency.",
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,108 +67,154 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "PHP",
+      fontAwesomeClassname: "fab fa-php"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Laravel",
+      fontAwesomeClassname: "fab fa-laravel"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Java",
+      fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
+      skillName: "MySQL",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "REST APIs",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "firebase",
+      skillName: "Webhooks",
+      fontAwesomeClassname: "fas fa-link"
+    },
+    {
+      skillName: "Cron Jobs",
+      fontAwesomeClassname: "fas fa-clock"
+    },
+    {
+      skillName: "Automation",
+      fontAwesomeClassname: "fas fa-robot"
+    },
+    {
+      skillName: "Git & GitHub",
+      fontAwesomeClassname: "fab fa-github"
+    },
+    {
+      skillName: "Postman",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
+      skillName: "VS Code",
+      fontAwesomeClassname: "fas fa-code"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
+      skillName: "OOPs",
+      fontAwesomeClassname: "fas fa-object-group"
+    },
+    // {
+    //   skillName: "python",
+    //   fontAwesomeClassname: "fab fa-python"
+    // },
+    // {
+    //   skillName: "docker",
+    //   fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
 
+// areas of interest
+const techInterests = {
+  title: "Areas of Interest 💡",
+  subTitle:
+    "Exploring new technologies and improving backend performance through modern architectures.",
+  items: [
+    "SaaS System Architecture & Multi-Tenant Design",
+    "IoT & Smart Devices Integration (Lock Systems, Sensors)",
+    "Microservices and Event-driven Architecture",
+    "AI-based System Optimization",
+    "Serverless & Cloud-Native Applications",
+  ],
+  display: true,
+};
 // Education Section
 
+// Education Section
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: true, // Set false to hide this section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "J.C. Bose University of Science and Technology, YMCA (Faridabad)",
+      logo: require("./assets/images/ymcalogo.png"),
+      subHeader: "Bachelor of Technology (B.Tech) in Computer Engineering",
+      duration: "August 2019 - June 2023",
+      desc: "Graduated with strong technical foundation and hands-on experience in backend and full-stack development.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "⚡ Studied core subjects like Data Structures, Algorithms, DBMS, Operating Systems, and Computer Networks.",
+        "⚡ Built academic projects using Java, PHP, MySQL, and Spring Boot.",
+        "⚡ Participated in hackathons and coding challenges, focusing on scalable software solutions."
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "KCM World School, Palwal",
+      logo: require("./assets/images/kcmlogo.jpeg"),
+      subHeader: "Senior Secondary (Class XII), Science Stream (PCM)",
+      duration: "2018 - 2019",
+      desc: "Developed interest in problem-solving and programming.",
+      descBullets: [
+        "⚡ Focused on Physics, Chemistry, and Mathematics.",
+        "⚡ Started exploring coding fundamentals and web technologies."
+      ]
+    },
+    {
+      schoolName: "KCM PUBLIC SCHOOL, Palwal",
+      logo: require("./assets/images/kcmlogo.jpeg"),
+      subHeader: "Secondary (Class X)",
+      duration: "2016 - 2017",
+      desc: "Completed foundational education with strong academic performance.",
+      descBullets: [
+        "⚡ Active participation in technical and science fairs.",
+        "⚡ Received merit recognition for academic excellence."
+      ]
     }
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true,
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend Development",
+      progressPercentage: "90%"
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Database Management",
+      progressPercentage: "80%"
+    },
+    { 
+      Stack: "Automation & Tools (Cron Jobs, Webhooks, Git)", 
+      progressPercentage: "80%" 
     },
     {
-      Stack: "Programming",
+      Stack: "Version Control & Deployment",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Programming & Methodologies",
+      progressPercentage: "90%"
+    },
+    {
+      Stack: "Frontend Development",
       progressPercentage: "60%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false
 };
+
 
 // Work experience section
 
@@ -174,29 +222,31 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Developer",
+      company: "E2X Infotech Pvt. Ltd.",
+      companylogo: require("./assets/images/e2xlogo.png"),
+      date: "August 2024 – Present",
+      desc: "Contributing to the backend development and automation of SaaS-based hotel and PMS management systems.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "⚙️ Developed and optimized REST API endpoints for Octorate PMS and Omnitec lock integration, automating password creation, updates, and synchronization.",
+        "🤖 Created automation scripts using web scraping and APIs to handle guest document submissions to local authorities and automate city tax collection processes.",
+        "💾 Designed and optimized MySQL schemas, stored procedures, and triggers to improve database performance and handle live hotel and booking data efficiently.",
+        "🔁 Built cron-based background jobs for reservation sync, guest updates, and reporting automation.",
+        "🚀 Improved system performance, fixed critical bugs, and ensured API reliability across live data environments.",
+        "📊 Developed tools for debugging and monitoring to assist support and developer teams in resolving recurring automation issues."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Backend Intern",
+      company: "World Phone Internet Services Pvt. Ltd.",
+      companylogo: require("./assets/images/worldphonelogo.png"),
+      date: "May 2023 – November 2023",
+      desc: "Worked on backend and API optimization for the Bandwidth Management System.",
+      descBullets: [
+        "⚡ Added new features to client portals and refined backend logic for speed and reliability.",
+        "⚡ Collaborated with senior developers to debug, document, and refactor REST APIs.",
+        "⚡ Improved API response time and reduced latency through caching and optimized SQL queries."
+      ]
     }
   ]
 };
@@ -205,42 +255,59 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Major Projects",
+  subtitle:
+    "Real-world SaaS systems and enterprise solutions built with focus on automation, scalability, and clean architecture.",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/octoratelogo.png"),
+      projectName: "Octorate PMS Automation",
+      projectDesc:
+        "Developed automation pipelines for the Octorate Property Management System (PMS) — integrating Omnitec smart locks, automating guest document submissions, and city tax collection through APIs and web scraping. Focused on backend efficiency, cron jobs, and scalable webhook integrations.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
+        { name: "Visit Website", url: "https://www.octorate.com/" },
+        // { name: "Tech Stack", url: "https://www.php.net" }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/worldphonelogo.png"),
+      projectName: "WorldPhone – Enterprise Communication Platform",
+      projectDesc:
+        "Contributed to the CMS and EMS modules of WorldPhone — a global VoIP and business communication suite. Optimized backend APIs, enhanced data synchronization, and ensured high-performance server interactions for call and message management systems.",
       footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
+        { name: "Visit Website", url: "https://www.worldphone.in/" }
+      ]
+    },
+    // {
+    //   image: require("./assets/images/posSystemLogo.png"),
+    //   projectName: "POS & Udahri Management System (In Development)",
+    //   projectDesc:
+    //     "Building a modular Point of Sale system focused on billing, item tracking, and Udahri (customer balance) management. Designed for small businesses with offline-ready mode, real-time reports, and printer integration.",
+    //   footerLink: [
+    //     { name: "View Progress", url: "#" },
+    //     { name: "GitHub Repo", url: "https://github.com/Joker9050" }
+    //   ]
+    // },
+    {
+      image: require("./assets/images/octoratelogo.png"),
+      projectName: "Automation Utilities & Web Scraping Tools",
+      projectDesc:
+        "Created internal tools for process automation — including data extraction, debugging utilities, and smart API-based workflow scripts for Octorate internal systems. These tools reduced manual work and improved backend visibility for support teams.",
+      footerLink: [
+        { name: "GitHub Repo", url: "https://www.octorate.com/" }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
+
 
 // Achievement Section
 // Include certificates, talks etc
@@ -300,7 +367,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +391,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +410,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +423,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -369,21 +436,25 @@ const resumeSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Let’s Connect 🤝",
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "I'm always open to discussing backend architecture, SaaS integrations, or new opportunities. Whether you want to collaborate, hire, or just exchange ideas — feel free to reach out!",
+  number: "+91 9050818446",
+  email_address: "gargumesh463@gmail.com",
+  location: "Palwal, Haryana, India",
+  availability: "Open to full-time roles, freelance backend projects & collaborations",
+  display: true
 };
+
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false// Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
