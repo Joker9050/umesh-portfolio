@@ -11,7 +11,7 @@ export default function Footer() {
       <div className="footer-div">
         <div className="footer-content">
           <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-            {emoji("Made with by Umesh Garg")}
+            {emoji("Made by Umesh Garg")}
           </p>
           <p className={isDark ? "dark-mode footer-text footer-reference" : "footer-text footer-reference"}>
             Reference from developerFolio
