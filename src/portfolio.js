@@ -168,18 +168,8 @@ const educationInfo = {
         "⚡ Focused on Physics, Chemistry, and Mathematics.",
         "⚡ Started exploring coding fundamentals and web technologies."
       ]
-    },
-    {
-      schoolName: "KCM PUBLIC SCHOOL, Palwal",
-      logo: require("./assets/images/kcmlogo.jpeg"),
-      subHeader: "Secondary (Class X)",
-      duration: "2016 - 2017",
-      desc: "Completed foundational education with strong academic performance.",
-      descBullets: [
-        "⚡ Active participation in technical and science fairs.",
-        "⚡ Received merit recognition for academic excellence."
-      ]
     }
+    
   ]
 };
 
